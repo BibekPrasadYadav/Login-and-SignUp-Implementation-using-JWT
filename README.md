@@ -1,6 +1,7 @@
-# Login-and-SignUp-Implementation-using-JWT
+# Project Title
+**Login-and-SignUp-Implementation-using-JWT**
 
-# Getting Started
+Getting Started
 To get started with this project, you will need to have the following installed on your local machine: 
 JDK 17+
 Maven 3+
