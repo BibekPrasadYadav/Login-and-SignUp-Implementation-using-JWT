@@ -30,20 +30,20 @@
 # Step to follow for Sign Up and Login 
 ## For SignUP
 ### POST Method : http://localhost:8080/api/v1/auth/signup
-* Provide the json data in body
+* Provide the json data in BODY
 ###### {
-###### "firstname":"",
-###### "lastname":"",
-###### "email":"",
-###### "password":""
+###### "firstname" : "",
+###### "lastname" : "",
+###### "email" : "",
+###### "password" : ""
 ###### }
 ## For Login 
 ### POST Method : http://localhost:8080/api/v1/auth/login
-* Provide the json data in body
-{
-"email": "",
-"password": ""
-  }
+* Provide the json data in BODY
+###### {
+###### "email" : "",
+###### "password" : ""
+###### }
 * You will receive the token and Copy the token  
 ## For Demo 
 ### GET Method: http://localhost:8080/api/v1/demo-controller
