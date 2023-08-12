@@ -4,7 +4,7 @@
 # Features
 * User registration and login with JWT authentication
 * Password encryption using BCrypt
-* Role-based authorization with Spring Security
+* Authorization with Spring Security
 * Customized access denied handling
 
 # Technologies
@@ -25,6 +25,30 @@
 * Build the project: mvn clean install
 * Run the project: mvn spring-boot:run
 -> The application will be available at http://localhost:8080.
+
+
+# Implementation and API
+## For SignUP
+### POST Method : http://localhost:8080/api/v1/auth/signup
+* Provide the json data in body
+  {
+  "firstname":"",
+  "lastname":"",
+  "email":"",
+  "password":""
+}
+## For Login 
+### POST Method : http://localhost:8080/api/v1/auth/login
+* Provide the json data in body
+  {
+  "email":"",
+  "password":""
+  }
+## You will receive the token and Copy the token  
+## For Demo 
+### GET Method: http://localhost:8080/api/v1/demo-controller
+* Go To the Authorization -> Choose the Bearer Token -> Paste the token received from login in Token field
+* Then it will authenticate and print. 
 
 
 
