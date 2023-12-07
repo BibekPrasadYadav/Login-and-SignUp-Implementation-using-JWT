@@ -26,7 +26,6 @@
 * Run the project: mvn spring-boot:run
 -> The application will be available at http://localhost:8080.
 
-
 # Step to follow for Sign Up and Login 
 ## For SignUP
 ### POST Method : http://localhost:8080/api/v1/auth/signup
